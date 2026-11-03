@@ -19,7 +19,47 @@
     font-weight: 300;
 }
 
+body {
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #1F2937;
+    height: 65px;
+    justify-content: space-around;
+}
+
+.headerLogo {
+    margin: 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.headerLinks {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
 #headLink {
     font-family: 'Retail Text Demo';
     font-weight: 300;
+    display: flex;
+    padding: 0px 10px;
+    color: white;
 }
+
