@@ -21,6 +21,7 @@
 
 body {
     margin: 0px;
+    font-family: 'Retail Text Demo';
 }
 
 .main {
@@ -33,7 +34,8 @@ body {
     flex-flow: row nowrap;
     background-color: #1F2937;
     height: 65px;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 324px;
 }
 
 .headerLogo {
@@ -61,5 +63,99 @@ ul li a {
     display: flex;
     padding: 0px 10px;
     color: white;
+    font-size: 18px;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
+.mainOne {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-family: 'Retail Text Demo';
+    padding: 100px 324px;
+    flex: 1 1 0;
+}
+
+.mainOneText {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.mainOneText > * {
+    margin: 5px 0px;
+}
+
+#oneHead {
+    font-weight: 900;
+    color: white;
+    font-size: 48px;
+    width: 75%;
+}
+
+#oneBody {
+    font-weight: 500;
+    color: white;
+    opacity: 75%;
+    font-size: 18px;
+    width: 75%;
+}
+
+#oneButton {
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    transition: 
+        background-color 200ms ease;
+    &:hover {
+        background-color: color-mix(in srgb, #3882F6 80%, Black);
+        cursor: pointer;
+    }
+    &:active {
+        background-color: color-mix(in srgb, #3882F6 30%, Black);
+    }
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    corner-shape: squircle;
+    padding: 10px 15px;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 500;
+    transition: scale 100ms ease-out;
+    &:active span{
+        scale: 0.9;
+        transition-duration: 50ms;
+    }
+}
+
+.mainOneImage {
+    display: flex;
+    height: auto;
+    width: 40%
+}
+
+.mainTwo {
+    display: flex;
+    flex: 1 1 0;
+
+}
+
+.mainThree {
+    display: flex;
+    flex: 1 1 0;
+    
+}
+
+.mainFour {
+    display: flex;
+    flex: 1 1 0;
+    
+}
