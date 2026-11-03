@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Bold.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Semibold.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Regular.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Retail Text Demo';
+    src: url(./fonts/RetailTextDemo-Italic.otf);
+    font-weight: 300;
+}
+
+#headLink {
+    font-family: 'Retail Text Demo';
+    font-weight: 300;
+}
