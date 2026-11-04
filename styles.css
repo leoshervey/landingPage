@@ -162,7 +162,8 @@ button {
 .twoBody {
     display:flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .team {
@@ -176,7 +177,7 @@ button {
 .teamLogo {
     border-radius: 25px;
     corner-shape: squircle;
-    height: 194px;
+    height: 250px;
 }
 
 .teamText {
@@ -260,4 +261,14 @@ button {
     &:active {
         background-color: color-mix(in srgb, #3882F6 30%, Black);
     }
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    padding: 15px 15px;
 }
